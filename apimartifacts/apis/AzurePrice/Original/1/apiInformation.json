@@ -1,0 +1,15 @@
+{
+  "name": "azureprice",
+  "properties": {
+    "path": "api",
+    "displayName": "AzurePrice",
+    "apiRevision": "1",
+    "description": "",
+    "isCurrent": true,
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://prices.azure.com",
+    "subscriptionRequired": false
+  }
+}

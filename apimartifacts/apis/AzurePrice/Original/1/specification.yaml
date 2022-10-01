@@ -1,0 +1,33 @@
+openapi: 3.0.1
+info:
+  title: AzurePrice
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://apim-central.azure-api.net/api
+paths:
+  /retail/prices:
+    get:
+      summary: getAzurePrice
+      operationId: getazureprice
+      parameters:
+        - name: $filter
+          in: query
+          schema:
+            type: ''
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]

@@ -1,0 +1,16 @@
+{
+  "name": "CountriesList",
+  "properties": {
+    "path": "country",
+    "displayName": "CountriesList",
+    "apiRevision": "1",
+    "isCurrent": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "serviceUrl": "https://countries.trevorblades.com/",
+    "subscriptionRequired": true,
+    "type": "graphql"
+  }
+}
